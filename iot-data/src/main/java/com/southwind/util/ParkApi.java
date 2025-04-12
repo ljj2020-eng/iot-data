@@ -17,10 +17,10 @@ public class ParkApi {
 
     public static String getNumber(String fileBase64){
         try{
-            // 实例化一个认证对象，入参需要传入腾讯云账户 SecretId 和 SecretKey
-            Credential cred = new Credential(
-                    "AKIDxiEVXM2HNnkUzFsKDwl174oKgnfLD66r",
-                    "e7MMGCGIDzYvBDQSFo8D3QYXJq812345");
+            // // 实例化一个认证对象，入参需要传入腾讯云账户 SecretId 和 SecretKey
+            // Credential cred = new Credential(
+            //         "AKIDxiEVXM2HNnkUzFsKDwl174oKgnfLD66r",
+            //         "e7MMGCGIDzYvBDQSFo8D3QYXJq812345");
             // 实例化一个http选项
             HttpProfile httpProfile = new HttpProfile();
             httpProfile.setEndpoint("ocr.tencentcloudapi.com");
